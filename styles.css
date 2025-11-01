@@ -1,0 +1,49 @@
+/**Globales**/
+
+/* Estilos para el cuerpo de la página */
+body {
+    font-family: Arial, sans-serif;
+    display: flex; /* Usamos Flexbox para control de diseño */
+    flex-direction: column; /* Organiza los hijos verticalmente */
+    align-items: center; /* Centra horizontalmente */
+    justify-content: center; /* Centra verticalmente */
+    min-height: 100vh; /* Asegura que ocupe toda la altura de la ventana */
+    margin: 0;
+    background-color: #f4f4f9; /* Un fondo suave */
+}
+
+/* Estilo para contener el contador y el botón */
+main {
+    text-align: center;
+    padding: 40px;
+    background-color: white; /* Fondo blanco para la tarjeta */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    border-radius: 8px; /* Bordes redondeados */
+}
+
+/* Estilo para el valor del contador */
+#valorContador {
+    font-size: 4em; /* Letra muy grande */
+    font-weight: bold;
+    color: #333;
+    display: block; 
+    margin-top: 10px;
+}
+
+/* Estilo para el botón */
+#botonIncrementar {
+    background-color: #007bff; /* Color azul */
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    cursor: pointer; /* Cambia el cursor para indicar que es clickeable */
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background-color 0.3s; /* Para un efecto suave al pasar el mouse */
+}
+
+/* Estilo para cuando el mouse está sobre el botón */
+#botonIncrementar:hover {
+    background-color: #0056b3; /* Un azul más oscuro */
+}
